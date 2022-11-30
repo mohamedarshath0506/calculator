@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style/index.css"/>
+</head>
+<body>
+    <section id="calculator" class="calculator v-center">
+        <div class="container">
+        <div class="textarea">
+            <input type="text" id="textarea" disabled/>
+        </div>
+        <div class="grid-4">
+            <button onclick="number('0')" class="primay-btn">0</button>
+            <button onclick="number('1')" class="primay-btn">1</button>
+            <button onclick="number('2')" class="primay-btn">2</button>
+            <button onclick="number('+')" class="secondary-btn">+</button>
+        </div>
+        <div class="grid-4">
+            <button onclick="number('3')" class="primay-btn">3</button>
+            <button onclick="number('4')" class="primay-btn">4</button>
+            <button onclick="number('5')" class="primay-btn">5</button>
+            <button onclick="number('-')" class="secondary-btn">-</button>
+        </div>
+        <div class="grid-4">
+            <button onclick="number('6')" class="primay-btn">6</button>
+            <button onclick="number('7')" class="primay-btn">7</button>
+            <button onclick="number('8')" class="primay-btn">8</button>
+            <button onclick="number('*')" class="secondary-btn">*</button>
+        </div>
+        <div class="grid-4">
+            <button onclick="number('9')" class="primay-btn">9</button>
+            <button onclick="uncheck()" class="btn-container">C</button>
+            <button onclick= "equal('=')" class="secondary-btn">=</button>
+            <button onclick="number('/')" class="secondary-btn">/</button>
+        </div>
+        </div>
+    </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
